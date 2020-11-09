@@ -1,0 +1,31 @@
+
+.top{ height:100px;background:linear-gradient(black,rgba(248, 245, 245, 0)) repeat}
+ .head,.main{ width:1200px;margin: 0 auto;}
+ .head{ height:100px; background:#F90}
+ .left{ width:150px; height:1000px; background:rgba(255, 255, 255, 0); float: left;}
+ .right{ width:1000px; height:1000px;background:rgba(255, 255, 255, 0); float:right}
+ .r_sub_left{ width:850px; height:1000px; background:rgb(87, 52, 52); float:left;}
+ .r_sub_right{ width:150px; height:1000px; background:rgba(255, 255, 255, 0); float: right;}
+ img.im1 {float:right;margin:1em;}
+ H1{font-size:36px;font-style:oblique}
+H2{color:white}
+H3{color:rgb(50, 40, 199)}
+form.pos{position: absolute;
+    top:300px;
+    left:800px}
+a:link{color:rgb(62, 65, 199)}
+a:visited{color:rgb(238, 232, 232);}
+a:hover{color:rgb(240, 33, 33)}
+a:active{color:rgb(224, 71, 199)}
+a.pos4{position:relative;
+    top: -100px;
+    left: 1100px;}
+a.pos1{position:relative;
+    top:-100px;
+    left:500px}
+a.pos2{position:relative;
+    top:-100px;
+    left:700px}
+a.pos3{position:relative;
+    top:-100px;
+    left:900px}
