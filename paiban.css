@@ -1,11 +1,11 @@
 
 .top{ height:100px;background:linear-gradient(black,rgba(248, 245, 245, 0)) repeat}
- .head,.main{ width:1200px;margin: 0 auto;}
+ .head,.main{ width:100%;margin: 0 auto;}
  .head{ height:100px; background:#F90}
- .left{ width:150px; height:1000px; background:rgba(255, 255, 255, 0); float: left;}
- .right{ width:1000px; height:1000px;background:rgba(255, 255, 255, 0); float:right}
- .r_sub_left{ width:850px; height:1000px; background:rgb(87, 52, 52); float:left;}
- .r_sub_right{ width:150px; height:1000px; background:rgba(255, 255, 255, 0); float: right;}
+ .left{ width:30%; height:100%; background:rgba(255, 255, 255, 0); float: left;}
+ .right{ width:70%; height:100%;background:rgba(255, 255, 255, 0); float:right}
+ .r_sub_left{ width:57%; height:100%; background:rgb(87, 52, 52); float:left;}
+ .r_sub_right{ width:43%; height:100%; background:rgba(255, 255, 255, 0); float: right;}
  img.im1 {float:right;margin:1em;}
  H1{font-size:36px;font-style:oblique}
 H2{color:white}
