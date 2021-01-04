@@ -1,0 +1,93 @@
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<HTML>
+    <head>
+        <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/index.js"></script>       
+        <link rel="stylesheet" type="text/css" href="./css/paiban.css">
+        <link rel="stylesheet" type="text/css" href="./css/11.css">
+        <audio src="https://music.163.com/#/song?id=506196018.mp3"  autoplay="autoplay"> </audio> 
+            <script>
+                var int=self.setInterval("clock()",1000);
+                function clock()
+                {
+                    var d=new Date();
+                    var t=d.toLocaleTimeString();
+                    document.getElementById("clock").value=t;
+                }
+                //消除cookie的函数
+                function logout() {
+                    document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+                    location.reload();//刷新页面
+                }
+                //获取cookie的函数
+                function getCookie(cname) {
+                    var name = cname + "=";
+                    var ca = document.cookie.split(';');
+                    for (var i = 0; i < ca.length; i++) {
+                        var c = ca[i].trim();
+                        if (c.indexOf(name) == 0) { return c.substring(name.length, c.length); }
+                    }
+                    return "";
+                }
+                //检测cookie函数
+                function checkCookie() {
+                    var user = getCookie("username");//获取cookie
+                    if (user.toString() == "") {
+                        //若用户为空的事件
+                    }
+                    else {
+                        document.getElementById("a1").remove();//删除id为a1的标签
+                        document.getElementById("mine").innerHTML = user;//将用户插入到块里面
+                    }
+                }  
+            </script>
+    </head>
+<body class="test">
+ <div class="top">
+    <a class="logo" href="lol.qq.com" title="LOL官网">
+        <img src="./css/img/图片1.png" alt="League of Legends" width="300" height="100">
+    </a>
+    <H1>
+        <span class="head-nav-title"><a class="pos1" href="index.html">首页</a></span>      
+        <span class="head-nav-title"><a class="pos2" href="链接">历届S赛冠军队伍</a></span>
+        <span class="head-nav-title"><a class="pos3" href="menberlist.html">知名选手</a></span>
+        <span clsss="head-nav-title"><a class="pos4" href="注册表.html">注册/</a></span>
+        <span clsss="head-nav-title"><text id="mine" class="ts"></text><a class="pos5" id="a1" href="登录表.html">登录</a></span>
+        <span class="head-nav-title"><button class="bt" type="button" onclick="logout()">注销</button>
+        </H1>
+ </div>
+ <div class="main">
+     <div class="left">
+        <input class="ip1" id="clock">   
+    </div>
+     <div class="right">
+         <div class="r_sub_left">
+            <p id="loading"></p>
+            <div id="images">
+              <div class="lighten">
+                <img src="./css/img/lighten1.jpg" alt="" />
+                <img src="./css/img/lighten4.jpg" alt="" />
+                <img src="./css/img/lighten3.jpg" alt="" />
+                <img src="./css/img/lighten2.jpg" alt="" />
+              </div>
+              <div class="normal">
+                <img src="./css/img/faker.jpg" alt="" />
+                <img src="./css/img/uzi1.jpg"  alt="" />
+                <img src="./css/img/clearlove7.jpg" alt="" />
+                <img src="./css/img/mata1.jpg" alt="" />
+              </div>
+              <nav>
+                <ul>
+                  <li class="pre"></li>
+                  <li class="next"></li>
+                </ul>
+              </nav>
+         </div>
+         <div class=" r_sub_right">
+         </div>
+     </div>
+ </div>
+ </body>
