@@ -1,0 +1,356 @@
+.top {
+    height: 100px;
+    background: linear-gradient(black, rgba(248, 245, 245, 0)) repeat;
+    z-index: -990
+}
+
+.head, .main {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    z-index: -990;
+    position: float;
+}
+
+.left {
+    width: 30%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0);
+    float: left;
+    z-index: -990
+}
+
+.right {
+    width: 70%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0);
+    float: right;
+    z-index: -990
+}
+
+.r_sub_left {
+    width: 57%;
+    background: rgb(33, 35, 37) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    float: left;
+    z-index: -990
+}
+
+.r_sub_left1 {
+    width: 57%;
+    background-attachment: fixed;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    float: left;
+    z-index: -990;
+    height: 400px;
+}
+
+.r_sub_right {
+    width: 43%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0);
+    float: right;
+    z-index: -990
+}
+
+img.im1 {
+    float: right;
+    margin: 1em;
+}
+
+img.img2 {
+    float: right;
+    right: 30%;
+    width: 380px;
+    height: 290px;
+    margin: 1em;
+}
+
+img.img3 {
+    position: absolute;
+    margin-left: 0px;
+    width: 608px
+}
+
+img.img4 {
+    float: right;
+    width: 606px;
+}
+
+H1 {
+    font-size: 36px;
+    font-style: oblique
+}
+
+.c1 {
+    font-size: 36px;
+    color: antiquewhite;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+.pos input {
+    background-color: #88837c1f;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 150px;
+}
+
+.pos input::-moz-placeholder {
+    color: rgba(228, 252, 10, 0.726);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.pos div input {
+    font-size: 30px;
+    margin-top: 50px;
+    height: 50px;
+    width: 125px;
+    margin-left: 110px;
+}
+
+.r_sub_left H1 li {
+    margin-top: 15px;
+}
+
+.c2 {
+    font-size: 36px;
+    color: antiquewhite;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    color: #f35626;
+    -webkit-animation: hue 6s infinite linear;
+}
+
+@-webkit-keyframes hue {
+    0% {
+        color: #f35626;
+    }
+    50% {
+        color: #feab3a;
+    }
+    100% {
+        color: #f35626;
+    }
+}
+
+.ctitle {
+    position: relative;
+    color: #feab3a;
+    font-size: 40px;
+    left: 30px
+}
+
+.wp1 {
+    position: relative;
+    top: 200px;
+}
+
+H2 {
+    color: white
+}
+
+H3 {
+    color: rgb(50, 40, 199)
+}
+
+form.pos {
+    background: rgba(118, 141, 163, 0.829) no-repeat center;
+    position: absolute;
+    top: 150px;
+    left: 580px;
+    height: 420px;
+    width: 350px;
+}
+
+input.inp {
+    width: 200px;
+    height: 30px
+}
+
+button.bt {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 780px; 
+    background-color: rgba(219, 211, 211, 0);
+    font-size: 20px;
+    color: white;
+}
+
+text.ts {
+    position: relative;
+    top: -100px;
+    left: 700px;
+    color: white;
+}
+
+a:link {
+    color: rgb(62, 65, 199)
+}
+
+a:visited {
+    color: rgb(238, 232, 232);
+}
+
+a:hover {
+    color: rgb(240, 33, 33)
+}
+
+a:active {
+    color: rgb(224, 71, 199)
+}
+
+a.pos1 {
+    position: relative;
+    top: -100px;
+    left: 350px
+}
+
+a.pos5 {
+    position: relative;
+    top: -100px;
+    left: 760px;
+}
+a.pos3 {
+    position: relative;
+    top: -100px;
+    left: 850px;
+}
+
+.logC {
+    width: 100px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    top: -100px;
+    left: 620px
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: linear-gradient(black, rgba(248, 245, 245, 0)) repeat;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 25px;
+}
+
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+    top: -100px;
+    left: 500px;
+}
+
+.dropdown1-content1 {
+    display: none;
+    position: absolute;
+    background: linear-gradient(black, rgba(248, 245, 245, 0)) repeat;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 28px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition-duration: 3s;
+}
+
+.dropdown:hover .dropdown-content1 {
+    display: block;
+}
+
+.dropdown1:hover .dropdown1-content {
+    display: block;
+    transition-duration: 3s;
+}
+
+.dropdown1:hover .dropdown1-content1 {
+    display: block;
+}
+
+.r_sub_left table tr td{
+    font-size: 22px;
+    color:white;
+}
+
+.r_sub_left form input{
+    font-size: 22px;
+    background:#3afecda4;
+    color:white;
+    border:1px solid;
+    width:100px;
+}
+
+.r_sub_left h3{
+    font-size: 30px;
+    color:rgba(233, 218, 10, 0.753);
+    margin-top: 20px;
+    margin-left:230px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 100%;
+    }
+    .top {
+        width: 100%;
+        height: 250px;
+    }
+    .left {
+        width: 0%;
+    }
+    .right {
+        width: 100%
+    }
+    .r_sub_left {
+        width: 100%;
+    }
+    .r_sub_right {
+        display: none;
+    }
+    a.pos4 {
+        position: relative;
+        top: 0px;
+        left: 210px;
+    }
+    a.pos1 {
+        position: relative;
+        top: -10px;
+        left: 50px
+    }
+    button.bt {
+        position: relative;
+        top: 0px;
+        left: 200px
+    }
+    form.pos {
+        position: absolute;
+        top: 250px;
+        left: 150px
+    }
+}
